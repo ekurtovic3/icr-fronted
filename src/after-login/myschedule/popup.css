@@ -1,0 +1,108 @@
+
+.my-popup-content {
+    margin: auto;
+    background: #5e5e5e;
+    border: 2px solid #ff6600;
+    width: 25%;
+    padding: 5px;
+    
+    position: relative;
+    color: aliceblue;
+    
+    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  .my-popup-arrow {
+    color: aliceblue;
+    font-weight: bold;
+    border-radius: 10;
+
+  }
+  [role='tooltip'].my-popup-content {
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.16) 20 20 3px;
+    color: black;
+    border-radius: 10;
+
+  }
+  
+  .my-popup-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    color: black;
+    border-radius: 10;
+
+  }
+  [data-popup='tooltip'].my-popup-overlay {
+      color: black;
+      border-radius: 10;
+
+  }
+  .popupField{
+      color: aliceblue;
+      margin-top: 20px;
+  }
+  .buttonBar{
+    position: static;
+    margin-left: 60%;
+    margin-top: 21%;
+  }
+  
+
+.popupRight{
+  margin-top: 20px;
+  font-weight: bold;
+  width: 80%;
+}
+.col{
+  margin-left: 20px;
+  padding-top: 2%;
+}
+input[type=time] {
+  border: 2px solid black;
+  border-radius: 0.7cm;
+  width: 70%;
+}
+
+input[type=date] {
+  border: 2px solid black;
+  border-radius: 0.7cm;
+  width: 70%;
+}
+.answer{
+  border: 2px solid #ff6600;
+
+}
+.btn-outline{
+  border: 2px solid beige;
+}
+.otkaziAAA{
+  text-decoration: none;
+  margin-bottom: 1rem;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: 2px solid white;
+  color: aliceblue;
+  border-radius: 2cm;
+  border-color: #ff6600;
+  cursor: pointer;
+  width: 80%;
+  margin-top: 15px;
+  overflow: hidden;
+}
+.potvrdi{
+  margin-top: 15px;
+
+  text-decoration: none;
+  background-color: #ff6600;
+  background-repeat: no-repeat;
+  border: 2px solid white;
+  color: aliceblue;
+  border-radius: 2cm;
+  border-color: #ff6600;
+  cursor: pointer;
+  width: 80%;
+  overflow: hidden;
+}

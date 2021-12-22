@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+#divBtnMain {
+display: inline;
+
+
+}
+.buttonMain {
+  text-decoration: none;
+  margin-top: 10px;
+  margin-left: 15px;   
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: 2px solid white;
+  color: aliceblue;
+  border-radius: 2cm;
+  cursor:pointer;
+  overflow: hidden;        
+}
+
+.buttonRegister{
+  text-decoration: none;
+  margin-top: 10px;
+  margin-left: 0px;   
+  background-color: #ff6600;
+  background-repeat:no-repeat;
+  border: 2px solid white;
+  color: aliceblue;
+  border-radius: 2cm;
+  border-color: #ff6600 ;
+  cursor:pointer;
+  overflow: hidden;   
+}
+.Pocetna {
+  text-align: left;
+  margin: 10% 0 0% 10%;
+  width: 650px ;
+}
+.Pocetna #text {
+ color: white;
+}
+.photo {
+  margin-top: 0%;
+  height: 250;
+  width: 450px; 
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
